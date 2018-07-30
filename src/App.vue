@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Header msg="Welcome to Your Vue.js App"/>
-    <Home />
-    <Footer />>
+    <Header />
+    <component v-bind:is="currentTabComponent" :tabs=tabs></component>
+    <Footer />
   </div>
 </template>
 
@@ -21,6 +21,20 @@ export default {
     Home,
     Contact,
     Advisors
+  },
+  computed: {
+    currentTabComponent: function() {
+      return null;
+    }
+  },
+  props: {
+    tabs:
+				[
+					{name: 'About Us', href: 'about'},
+					{name: 'Advisors', href: 'advisors'},
+					{name: 'Services', href: 'services'},
+					{name: 'Contact Us', href: 'contact'}
+				]
   }
 }
 </script>

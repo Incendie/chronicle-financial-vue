@@ -12,11 +12,14 @@
 					<span class="hamburger__bottom"></span>
 			</label>
 			<div class="header__nav">
-				<ul>					
-					<li><a href="about.html">About Us</a></li>
-					<li><a href="advisors.html">Advisors</a></li>
-					<li><a href="services.html">Our Services</a></li>
-					<li><a href="contact.html">Contact Us</a></li>
+				<ul>
+					<li
+						v-for="page in pages"
+						v-bind:key="page"
+						v-on:click="currentpage = page"
+					>
+						<a v-bind:href="'/' + page.href">{{ page.name }}</a>
+					</li>
 				</ul>
 			</div>
 		</nav>
@@ -26,9 +29,13 @@
 <script>
 export default {
   name: 'Header',
-  props: {
-    msg: String
-  }
+  props: ['tabs'],
+	data: function() {
+		return {
+			pages:
+				this.tabs
+		}
+	},
 }
 </script>
 
