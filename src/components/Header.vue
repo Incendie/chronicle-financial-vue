@@ -13,13 +13,13 @@
 			</label>
 			<div class="header__nav">
 				<ul>
-					<li
-						v-for="page in pages"
-						v-bind:key="page"
-						v-on:click="currentpage = page"
-					>
-						<a v-bind:href="'/' + page.href">{{ page.name }}</a>
-					</li>
+						<li v-for="routes in links" v-bind:key="routes.id">
+							<router-link 
+								class="navLink"
+								:to="`${routes.page}`"
+							>{{ routes.text }}
+							</router-link>
+						</li>
 				</ul>
 			</div>
 		</nav>
@@ -29,13 +29,27 @@
 <script>
 export default {
   name: 'Header',
-  props: ['tabs'],
-	data: function() {
+  data() {
 		return {
-			pages:
-				this.tabs
+			links: [				
+        {
+          id: 0,
+          text: 'Home',
+          page:'/'
+        },
+        {
+          id: 1,
+          text: 'Advisors',
+          page:'/advisors'
+        },
+        {
+          id: 2,
+          text: 'Contact',
+          page:'/contact'
+        }
+			]
 		}
-	},
+	}
 }
 </script>
 

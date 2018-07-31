@@ -1,31 +1,20 @@
 <template>
   <div id="app">
     <Header />
-    <component v-bind:is="currentTabComponent" :tabs=tabs></component>
+    <router-view />
     <Footer />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import Footer from './components/Footer.vue';
-import Home from './components/Home.vue';
-import Contact from './components/Contact.vue';
-import Advisors from './components/Advisors.vue';
+import Header from '@/components/Header.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'app',
   components: {
     Header,
     Footer,
-    Home,
-    Contact,
-    Advisors
-  },
-  computed: {
-    currentTabComponent: function() {
-      return null;
-    }
   },
   props: {
     tabs:
