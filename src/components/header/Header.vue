@@ -1,7 +1,7 @@
 <template>
   <header>
 		<div class="logo">
-				<!-- <a href="./"><img src="./public/images/chronicle-financial-300dpi.png" alt=""></a> -->
+				<a href="./"><img src="../../assets/chronicle-financial-300dpi.png" alt=""></a>
 		</div>
 		<nav>
 			<input id="hamburger" type="checkbox">
@@ -37,25 +37,20 @@ export default {
           text: 'Home',
           page:'/'
 				},
-				{
-					id: 1,
-					text: 'About Us',
-					page: '/about'
-				},
         {
-          id: 2,
+          id: 1,
           text: 'Advisors',
           page:'/advisors'
+				},
+				{
+          id: 3,
+          text: 'Our Services',
+          page:'/services'
         },
         {
           id: 4,
           text: 'Contact',
           page:'/contact'
-        },
-				{
-          id: 3,
-          text: 'Our Services',
-          page:'/services'
         }
 			]
 		}
