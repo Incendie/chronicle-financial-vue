@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import Header from '@/components/Header.vue';
-import Footer from '@/components/Footer.vue';
+import Header from '@/components/header/Header.vue';
+import Footer from '@/components/footer/Footer.vue';
 
 export default {
   name: 'app',
@@ -22,13 +22,13 @@ export default {
 					{name: 'About Us', href: 'about'},
 					{name: 'Advisors', href: 'advisors'},
 					{name: 'Services', href: 'services'},
-					{name: 'Contact Us', href: 'contact'}
+					{name: 'Contact Us', href: 'contact'},
 				]
   }
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -1,0 +1,62 @@
+html {
+  font-size: $fontSize;
+}
+
+body {
+  font-family: $contentFont;
+}
+
+h1, h2, h3 {
+  font-family: $headingFont;
+  color: black;
+  margin: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: $primaryColour;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+header {
+  width: 100vw;
+  max-height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+	background: none;
+}
+
+.wrapper {
+  max-width: calc(100vw * 0.75);
+  margin: 0 auto;
+}

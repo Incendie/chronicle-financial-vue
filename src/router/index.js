@@ -1,9 +1,11 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 
-import Home from '@/components/Home';
-import Advisors from '@/components/Advisors';
-import Contact from '@/components/Contact';
+import Home from '@/components/home/Home';
+import Advisors from '@/components/advisors/Advisors';
+import Contact from '@/components/contact/Contact';
+import About from '@/components/about/About';
+import Services from '@/components/services/Services';
 
 Vue.use(Router);
 
@@ -23,6 +25,16 @@ export default new Router({
       path: '/contact',
       name: 'Contact',
       component: Contact
-    }
+    },
+    {
+      path: '/about',
+      name: 'About Us',
+      component: About
+    },
+    {
+      path: '/services',
+      name: 'Our Services',
+      component: Services
+    },
   ]
 })

@@ -14,7 +14,7 @@
 			<div class="header__nav">
 				<ul>
 						<li v-for="routes in links" v-bind:key="routes.id">
-							<router-link 
+							<router-link
 								class="navLink"
 								:to="`${routes.page}`"
 							>{{ routes.text }}
@@ -31,21 +31,31 @@ export default {
   name: 'Header',
   data() {
 		return {
-			links: [				
+			links: [
         {
           id: 0,
           text: 'Home',
           page:'/'
-        },
+				},
+				{
+					id: 1,
+					text: 'About Us',
+					page: '/about'
+				},
         {
-          id: 1,
+          id: 2,
           text: 'Advisors',
           page:'/advisors'
         },
         {
-          id: 2,
+          id: 4,
           text: 'Contact',
           page:'/contact'
+        },
+				{
+          id: 3,
+          text: 'Our Services',
+          page:'/services'
         }
 			]
 		}
@@ -54,6 +64,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
+<style scoped lang="scss">
+	@import '../../scss/styles.scss';
+	@import './scss/styles.scss';
 </style>
