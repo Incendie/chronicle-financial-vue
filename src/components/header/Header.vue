@@ -1,17 +1,10 @@
 <template>
-  <header class="wrapper">
-		<div class="logo">
-				<a href="./"><img src="../../assets/chronicle-financial-300dpi.png" alt=""></a>
-		</div>
-		<nav>
-			<input id="hamburger" type="checkbox">
-			<label for="hamburger" class="hamburger">
-					<span class="hamburger__label">Menu</span>
-					<span class="hamburger__top"></span>
-					<span class="hamburger__middle"></span>
-					<span class="hamburger__bottom"></span>
-			</label>
-			<div class="header__nav">
+  <header>
+		<div class="wrapper">
+			<div class="logo">
+					<a href="./"><img src="../../assets/chronicle-financial-300dpi.png" alt=""></a>
+			</div>
+			<nav>
 				<ul>
 						<li v-for="routes in links" v-bind:key="routes.id">
 							<router-link
@@ -21,8 +14,8 @@
 							</router-link>
 						</li>
 				</ul>
-			</div>
-		</nav>
+			</nav>
+		</div>
 	</header>
 </template>
 
