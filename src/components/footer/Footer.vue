@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="contact">
+    <section class="contact wrapper">
       <h2>Contact Us</h2>
       <ul class="contact__info">
         <li>

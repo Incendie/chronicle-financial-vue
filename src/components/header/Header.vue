@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="wrapper">
 		<div class="logo">
 				<a href="./"><img src="../../assets/chronicle-financial-300dpi.png" alt=""></a>
 		</div>

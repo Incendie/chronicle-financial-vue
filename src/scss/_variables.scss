@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 $primaryColour: #414099;
 $secondaryColour: #6D6E71;
 $bgColour: #272E4B;
-$fontColour: white;
+$fontColour: #15255B;
+$textColour: #343434;
 
-$headingFont: 'Roboto', sans-serif; 
-$contentFont: 'Lato', sans-serif;
+$headingFont: 'Montserrat', sans-serif;
+$contentFont: $headingFont;
+// $contentFont: 'Lato', sans-serif;
 
 $fontSize: 10px;
 

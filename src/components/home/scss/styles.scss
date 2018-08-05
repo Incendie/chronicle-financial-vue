@@ -1,9 +1,9 @@
 .hero {
 	margin: 10px 0;
-}
-
-.home	.hero {
-	background-image: url("../assets/hero.jpg");
+	background-image: url('../../assets/hero.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 900px;
 }
 
 .links > div {
