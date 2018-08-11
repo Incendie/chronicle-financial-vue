@@ -16,6 +16,7 @@ h1 {
   text-transform: uppercase;
   color: $primaryColour;
   font-size: 8.8rem;
+  font-weight: normal;
 }
 
 h2 {
@@ -24,6 +25,7 @@ h2 {
   text-transform: uppercase;
   font-weight: 900;
   color: $fontColour;
+  padding-top: 30px;
 }
 
 p {

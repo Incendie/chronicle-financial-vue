@@ -2,12 +2,23 @@
 	background-image: url('../../assets/hero.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 900px;
+	min-height: 800px;
+}
+
+h1 {
+	position: relative;	
+	top: 50px;
+	margin: 0;
+	width: 700px;
 }
 
 .links > div {
 	position: relative;
 	margin-bottom: 15px;
+}
+
+main, section {
+	padding-bottom: 30px;
 }
 
 .links__overlay {
@@ -26,29 +37,79 @@
 	right: 0;
 }
 
-.contact {
-	margin-top: 20px;
-	padding-bottom: 20px;
+section {
+	background-color: $fontColour;
 
-	p {
-		color: rgba(0,0,0,0.67);
-		font-weight: 700;
-		font-size: 1.7rem;
-		text-align: center;
+	h2 {
+		color: white;		
 	}
 
-	a {
-		color: $primaryColour;
-	}
+	ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
 
-	&:before {
-		content: "";
-		display: block;
-		width: 50%;
-		height: 1px;
-		background-color: $primaryColour;
-		position: relative;
-		top: -50%;
-		margin: 20px auto;
+		li {
+			background-color: white;
+			width: 27.5%;
+			border-bottom-left-radius: 15px;
+			border-bottom-right-radius: 15px;
+			margin: 30px 0;
+		}
+
+		.links__container {
+			h2, p{
+				margin: 0 auto;
+				max-width: 80%;
+			}
+
+			h3 {
+				font-size: 1.6rem;
+				color: white;
+				text-transform: uppercase;
+				background: $secondaryColour;
+				font-weight: normal;
+				padding: 5px 35px;
+			}
+
+			p {
+				min-height: 100px;
+				padding-top: 10px;
+			}
+
+			button {
+				margin: 20px 35px;
+				background: white;
+				color: $primaryColour;
+				border: 1px solid $primaryColour;
+				border-radius: 8px;
+				padding: 6px;
+				font-size: 1.6rem;
+
+				&:hover {
+					background: $primaryColour;
+					color: white;
+				}
+			}
+		}
+
+		.links__img {
+			height: 200px;
+			background-size: cover;
+			background-repeat: no-repeat;
+			cursor: pointer;
+		}
+
+		.advisors {
+			background-image: url("../../assets/D88_8728.jpg");
+		}
+		
+		.know {
+			background-image: url("../../assets/wedding-1770860.jpg");
+		}
+
+		.consult {
+			background-image: url("../../assets/stock-photo-cheerful-business-people-working-with-documents-together-415652407.jpg");
+		}
 	}
 }
