@@ -1,5 +1,8 @@
 @import "nav";
 
+header {
+	background-color: $bgColour2;
+}
 .logo, .hero {
 	background-size: contain;
 	background-repeat: no-repeat;

@@ -5,15 +5,17 @@
 		<h1>Live Life to the Fullest</h1>
 			</div>
     </div>
-    <main class="wrapper">
-      <h2>About Us & Our Services</h2>
-      <p>Specializing in the English speaking and Chinese speaking Canadian market, our team of experienced and knowledgeable representatives are here to listen to you and provide professional consultation regardless of your financial status, tailoring to your individual needs.</p>
+    <main>
+			<div class="wrapper">
+				<h2>About Us & Our Services</h2>
+				<p>Specializing in the English speaking and Chinese speaking Canadian market, our team of experienced and knowledgeable representatives are here to listen to you and provide professional consultation regardless of your financial status, tailoring to your individual needs.</p>
 
-      <p>Every customer is unique and important to us. At Chronicle Financial, we put principles such as integrity, love, service, and honesty into our everyday lives. We look forward to building a rewarding partnership with you.</p>
+				<p>Every customer is unique and important to us. At Chronicle Financial, we put principles such as integrity, love, service, and honesty into our everyday lives. We look forward to building a rewarding partnership with you.</p>
 
-      <p>As a brokerage, we are partnered with a multitude of insurance companies, investment companies*, banks and financial institutions.</p>
+				<p>As a brokerage, we are partnered with a multitude of insurance companies, investment companies*, banks and financial institutions.</p>
 
-      <p>Our investment professionals have the expertise, dedication and experience to make insightful investment decisions, while being committed to the principle that in every action we take, we will be guided by the long-term best interests of our clients.</p>
+				<p>Our investment professionals have the expertise, dedication and experience to make insightful investment decisions, while being committed to the principle that in every action we take, we will be guided by the long-term best interests of our clients.</p>
+			</div>
     </main>
   
     <section class="about">
