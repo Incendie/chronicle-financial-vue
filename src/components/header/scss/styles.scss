@@ -2,7 +2,9 @@
 
 header {
 	background-color: $bgColour2;
+	z-index: 10;
 }
+
 .logo, .hero {
 	background-size: contain;
 	background-repeat: no-repeat;

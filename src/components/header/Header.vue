@@ -1,6 +1,6 @@
 <template>
   <header>
-		<div class="wrapper">
+		<div class="wrapper navbar">
 			<div class="logo">
 					<a href="./"><img src="../../assets/chronicle-financial-300dpi.png" alt=""></a>
 			</div>
@@ -8,8 +8,9 @@
 				<ul>
 						<li v-for="routes in links" v-bind:key="routes.id">
 							<router-link
-								class="navLink"
+								class="navLink ${routes.name}"
 								:to="`${routes.page}`"
+								v-on:click="activePage"
 							>{{ routes.text }}
 							</router-link>
 						</li>
@@ -27,25 +28,37 @@ export default {
 			links: [
         {
           id: 0,
-          text: 'Home',
+					text: 'Home',
+					name: 'home',
           page:'/'
 				},
         {
           id: 1,
-          text: 'Advisors',
+					text: 'Advisors',
+					name: 'advisors',
           page:'/advisors'
 				},
 				{
           id: 3,
-          text: 'Our Services',
+					text: 'Our Services',
+					name: 'services',
           page:'/services'
         },
         {
           id: 4,
-          text: 'Contact',
+					text: 'Contact',
+					name: 'contact',
           page:'/contact'
         }
 			]
+		}
+	},
+	methods: {
+		activePage: function() {
+			var activeLink = document.getElementsByClassName(this.name);
+			alert(this);
+
+			activeLink.parentElement.classList.add("active");
 		}
 	}
 }

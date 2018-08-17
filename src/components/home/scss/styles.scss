@@ -15,9 +15,10 @@ main {
 
 h1 {
 	position: relative;	
-	top: 50px;
+	top: 150px;
 	margin: 0;
 	width: 700px;
+	z-index: 1;
 }
 
 .links > div {

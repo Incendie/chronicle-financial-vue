@@ -23,6 +23,11 @@ export default {
     background-color: $bgColour2;
   }
 
+  .hero {
+    background-image: url("../../assets/wedding-1770860.jpg");
+    background-position-y: -600px;
+  }
+
   main {
     padding-bottom: 80px;
   }

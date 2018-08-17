@@ -19,10 +19,15 @@ export default {
   @import '../../scss/styles.scss';
   @import './scss/styles.scss';
 
+.hero {
+    background-image: url("../../assets/team-meeting.jpg");
+    background-position-y: -600px;
+  }
+
   .consultation {
     background-color: $bgColour2;
   }
-  
+
   main {
     padding-bottom: 80px;
   }

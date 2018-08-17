@@ -24,7 +24,7 @@ export default {
 					{name: 'Services', href: 'services'},
 					{name: 'Contact Us', href: 'contact'},
 				]
-  }
+  },
 }
 </script>
 

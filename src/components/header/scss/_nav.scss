@@ -1,6 +1,7 @@
 header {
   border-bottom: 5px solid $primaryColour;
   min-height: 140px;
+  position: fixed;
 }
 
 .logo {
@@ -15,6 +16,7 @@ header {
 
 nav {
   min-width: 70%;
+  background-color: $bgColour2;
 }
 
 ul {
@@ -54,34 +56,6 @@ ul {
   }
 }
 
-// nav {
-// 	min-width: 10%;
-// }
-
-// .header__nav {
-// 	position: fixed;
-// 	top: -100%;
-// 	left: 0;
-// 	font-size: 2rem;
-// 	background: white;
-// 	width: 100vw;
-// 	text-align: center;
-// 	padding: 5px;
-// 	z-index: 2;
-// 	transition: all 0.5s ease-in-out;
-
-// 	li {
-// 		border-bottom: 1px solid $primaryColour;
-// 		margin: 0 15%;
-// 		display: block;
-// 		padding: 10px;
-
-// 		&:last-child {
-// 			border-bottom: 0;
-// 		}
-
-// 		a {
-// 			color: $primaryColour;
-// 		}
-// 	}
-// }
+.active {
+  background-color: $primaryColour;
+}

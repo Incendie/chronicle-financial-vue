@@ -7,8 +7,9 @@
 .hero {	
 	background-image: url("../../assets/building.jpg");
 	background-size: cover;
-	background-position: center;
-	min-height: 50vh;
+	background-position-y: 100px;
+	background-repeat: no-repeat;
+	min-height: 70vh;
 	padding: 0;
 	margin: 0;
 }
