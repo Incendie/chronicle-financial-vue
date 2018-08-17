@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="advisors">
 		<div class="hero"></div>
 		<main>
 			<div class="advisor">

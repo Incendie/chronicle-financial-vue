@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home">
     <div class="hero">
 			<div class="wrapper">
 		<h1>Live Life to the Fullest</h1>
@@ -32,18 +32,18 @@
 					</li>
 					<li>
 						<div class="links__container">
-							<router-link to="/services" tag="div" class="links__img know"></router-link>
+							<router-link to="/didyouknow" tag="div" class="links__img know"></router-link>
 							<h3>Did You Know?</h3>
 							<p>In order to retire comfortably, you need 70% of your working income! Are you prepared?</p>
-							<router-link to="/services" tag="button">Read More</router-link>
+							<router-link to="/didyouknow" tag="button">Read More</router-link>
 						</div>
 					</li>
 					<li>
 						<div class="links__container">
-							<router-link to="/contact" tag="div" class="links__img consult"></router-link>
+							<router-link to="/consultation" tag="div" class="links__img consult"></router-link>
 							<h3>Free 30Min Consultation</h3>
 							<p>We'd like to provide you with a second opinion. Come and speak to us!</p>
-							<router-link to="/contact" tag="button">Read More</router-link>
+							<router-link to="/consultation" tag="button">Read More</router-link>
 						</div>
 					</li>
 				</ul>

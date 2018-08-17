@@ -1,13 +1,34 @@
-.hero {
-	margin: 10px 0;
+.contact {
+	background-color: $bgColour2;
+	padding-bottom: 30px;
+	width: 100vw;
 }
 
-.contactPage {
-	& .wrapper {
-		margin: 20px auto;
-	}
+.hero {	
+	background-image: url("../../assets/building.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 50vh;
+	padding: 0;
+	margin: 0;
 }
 
-.contactPage__advisors > div {
-	margin: 10px auto;
+.map {
+	margin: 30px auto;
+	max-width: 50vw;
+	border: 4px solid $fontColour;
+	height: 608px;
+	width: 808px;
+}
+
+p {
+	margin: 0;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+.address {
+	margin: 20px 0;
 }

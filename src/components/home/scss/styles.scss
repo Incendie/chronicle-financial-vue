@@ -5,6 +5,10 @@
 	min-height: 800px;
 }
 
+.home {
+	width: 100vw;
+}
+
 main {
 	background-color: $bgColour2;
 }
@@ -62,6 +66,7 @@ section {
 		}
 
 		.links__container {
+			
 			h2, p{
 				margin: 0 auto;
 				max-width: 80%;
@@ -102,6 +107,13 @@ section {
 			background-size: cover;
 			background-repeat: no-repeat;
 			cursor: pointer;
+
+			&:hover {
+				& ~ button{
+					background: $primaryColour;
+					color: white;
+				}
+			}
 		}
 
 		.advisors {
@@ -113,7 +125,7 @@ section {
 		}
 
 		.consult {
-			background-image: url("../../assets/stock-photo-cheerful-business-people-working-with-documents-together-415652407.jpg");
+			background-image: url("../../assets/team-meeting.jpg");
 		}
 	}
 }
