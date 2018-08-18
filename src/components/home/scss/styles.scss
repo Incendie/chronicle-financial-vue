@@ -51,10 +51,11 @@ section {
 			border-bottom-left-radius: 15px;
 			border-bottom-right-radius: 15px;
 			margin: 30px 0;
+			filter: drop-shadow(5px 5px 5px black);
 		}
 
 		.links__container {
-			
+
 			h2, p{
 				margin: 0 auto;
 				max-width: 80%;

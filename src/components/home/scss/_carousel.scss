@@ -84,15 +84,21 @@ h1 {
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  padding: 0 200px;
+  padding: 0 140px;
 }
+
+$buttonSize: 8rem;
 
 .carousel__button {
   border-radius: 50%;
   border: none;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background: none;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
 
   &::before {
     border-style: solid;
@@ -103,23 +109,25 @@ h1 {
     // filter: drop-shadow(1rem -1rem 1px #000);
     content: '';
     display: inline-block;
-    height: 10rem;
     left: 0.15em;
     position: relative;
     top: 1rem;
     transform: rotate(-45deg);
     vertical-align: top;
-    width: 10rem;
+    height: $buttonSize;
+    width: $buttonSize;
   }
 
 }
 
 .button__left::before {
-  left: 0;
+  left: 1.5rem;
+  top: 0;
   transform: rotate(-135deg);
 }
 
 .button__right::before {
-  left: 0;
+  left: -1.5rem;
+  top: 0;
   transform: rotate(45deg);
 }
