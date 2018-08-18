@@ -6,11 +6,10 @@
 			</div>
 			<nav>
 				<ul>
-						<li v-for="routes in links" v-bind:key="routes.id">
+						<li v-for="routes in links" v-bind:key="routes.id" class="inactive">
 							<router-link
 								class="navLink ${routes.name}"
 								:to="`${routes.page}`"
-								v-on:click="activePage"
 							>{{ routes.text }}
 							</router-link>
 						</li>
@@ -53,14 +52,6 @@ export default {
 			]
 		}
 	},
-	methods: {
-		activePage: function() {
-			var activeLink = document.getElementsByClassName(this.name);
-			alert(this);
-
-			activeLink.parentElement.classList.add("active");
-		}
-	}
 }
 </script>
 

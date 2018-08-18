@@ -34,19 +34,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    &:hover {
-      background-color: $primaryColour;
-
-      a {
-        display: inline-block;
-        vertical-align: middle;
-        color: #FFFFFF;
-        width: 100%;
-        height: 100%;
-        line-height: 7rem;
-      }
-    }
+    background-color: $bgColour2;
 
     a {
       font-size: 1.6rem;
@@ -56,6 +44,21 @@ ul {
   }
 }
 
+.inactive {
+  background-color: $bgColour2;
+  transition: background 0.4s ease-in-out;
+}
+
 .active {
-  background-color: $primaryColour;
+  background-color: $primaryColour;  
+  transition: background 0.4s ease-in-out;
+
+  a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    line-height: 7rem;
+  }
 }

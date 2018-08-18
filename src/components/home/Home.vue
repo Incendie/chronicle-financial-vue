@@ -1,8 +1,9 @@
 <template>
   <div class="home">
     <div class="hero">
+			<Carousel />
 			<div class="wrapper">
-		<h1>Live Life to the Fullest</h1>
+		<!-- <h1>Live Life to the Fullest</h1> -->
 			</div>
     </div>
     <main>
@@ -53,8 +54,25 @@
 </template>
 
 <script>
+import Carousel from "./Carousel.vue"
+
 export default {
   name: 'Home',
+	created: function() {
+		var activeLink = document.getElementsByClassName("navLink")[0];
+
+		activeLink.parentElement.classList.add("active");
+		activeLink.parentElement.classList.remove("inactive");
+	},
+	destroyed: function() {
+		var activeLink = document.getElementsByClassName("navLink")[0];
+
+		activeLink.parentElement.classList.remove("active");
+		activeLink.parentElement.classList.add("inactive");
+	},
+	components: {
+		Carousel,
+	}
 }
 </script>
 

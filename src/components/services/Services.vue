@@ -30,6 +30,18 @@
 <script>
 export default {
   name: 'Services',
+  created: function() {
+		var activeLink = document.getElementsByClassName("navLink")[2];
+
+    activeLink.parentElement.classList.add("active");
+    activeLink.parentElement.classList.remove("inactive");
+	},
+	destroyed: function() {
+		var activeLink = document.getElementsByClassName("navLink")[2];
+
+    activeLink.parentElement.classList.remove("active");
+    activeLink.parentElement.classList.add("inactive");
+	},
 }
 </script>
 

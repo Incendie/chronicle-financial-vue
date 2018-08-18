@@ -1,9 +1,4 @@
-.hero {
-	background-image: url('../../assets/hero.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	min-height: 800px;
-}
+@import "carousel";
 
 .home {
 	width: 100vw;
@@ -11,14 +6,6 @@
 
 main {
 	background-color: $bgColour2;
-}
-
-h1 {
-	position: relative;	
-	top: 150px;
-	margin: 0;
-	width: 700px;
-	z-index: 1;
 }
 
 .links > div {

@@ -1,0 +1,125 @@
+.carousel__slide {
+	background-size: cover;
+	background-repeat: no-repeat;
+  min-height: 800px;
+  width: 100vw;
+  flex: 1 0 auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide__life {
+  background-image: url('../../assets/hero.jpg');
+}
+
+.slide__know {
+  background-image: url('../../assets/wedding-1770860.jpg');
+}
+
+.slide__advisors {
+  background-image: url('../../assets/D88_8728.jpg');
+
+  h1 {
+    left: 45vw;
+    color: white;
+    font-size: 7rem;
+  }
+}
+
+.slide__consultation {
+  background-image: url('../../assets/team-meeting.jpg');
+
+  h1 {
+    left: 40vw;
+    font-size: 6rem;
+  }
+}
+
+.slide__services {
+  background-image: url('../../assets/vacation.jpg');
+  background-position: center;
+
+  h1 {
+    color: white;
+    text-align: center;
+    left: 18vw;    
+    font-size: 6rem;
+  }
+}
+
+.carousel__slide:first-of-type {
+  opacity: 0;
+}
+.carousel__slide:last-of-type {
+  opacity: 0;
+}
+
+h1 {
+	position: relative;
+	top: 20rem;
+	margin: 0;
+	width: 700px;
+	z-index: 1;
+}
+
+.carousel-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100vw;
+  min-height: 800px;
+}
+
+.carousel-controls {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px;
+}
+
+.carousel__button {
+  border-radius: 50%;
+  border: none;
+  width: 100px;
+  height: 100px;
+  background: none;
+
+  &::before {
+    border-style: solid;
+    border-width: 2rem 2rem 0 0;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0.7);
+    // box-shadow: 5px -5px 3px 3px #000;
+    // filter: drop-shadow(1rem -1rem 1px #000);
+    content: '';
+    display: inline-block;
+    height: 10rem;
+    left: 0.15em;
+    position: relative;
+    top: 1rem;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 10rem;
+  }
+
+}
+
+.button__left::before {
+  left: 0;
+  transform: rotate(-135deg);
+}
+
+.button__right::before {
+  left: 0;
+  transform: rotate(45deg);
+}

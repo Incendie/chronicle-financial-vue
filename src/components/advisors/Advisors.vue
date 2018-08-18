@@ -66,7 +66,19 @@
 <script>
 
 export default {
-  name: 'Advisors',
+	name: 'Advisors',
+	created: function() {
+		var activeLink = document.getElementsByClassName("navLink")[1];
+
+		activeLink.parentElement.classList.add("active");
+		activeLink.parentElement.classList.remove("inactive");
+	},
+	destroyed: function() {
+		var activeLink = document.getElementsByClassName("navLink")[1];
+
+		activeLink.parentElement.classList.remove("active");
+		activeLink.parentElement.classList.add("inactive");
+	},
 }
 </script>
 

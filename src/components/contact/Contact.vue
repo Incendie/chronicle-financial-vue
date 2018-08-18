@@ -27,6 +27,18 @@
 <script>
 export default {
   name: 'Contact',
+  created: function() {
+		var activeLink = document.getElementsByClassName("navLink")[3];
+
+    activeLink.parentElement.classList.add("active");
+    activeLink.parentElement.classList.remove("inactive");
+	},
+	destroyed: function() {
+		var activeLink = document.getElementsByClassName("navLink")[3];
+
+    activeLink.parentElement.classList.remove("active");
+    activeLink.parentElement.classList.add("inactive");
+	},
 }
 </script>
 
