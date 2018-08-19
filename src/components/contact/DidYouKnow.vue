@@ -31,4 +31,6 @@ export default {
   main {
     padding-bottom: 80px;
   }
+
+  @import './scss/_responsive.scss'
 </style>
