@@ -20,6 +20,15 @@
 	border: 4px solid $fontColour;
 	height: 608px;
 	width: 808px;
+	position: relative;
+
+	iframe {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
 }
 
 p {
@@ -33,3 +42,5 @@ h2 {
 .address {
 	margin: 20px 0;
 }
+
+@import "responsive";

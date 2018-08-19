@@ -1,0 +1,32 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .hero {
+    min-height: 50vh;
+    background-position: 0 0;
+  }
+
+  .services {
+    padding: 0;
+    padding-bottom: 30px;
+  }
+
+  section.details {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 75vw;
+
+    h3 {
+      font-size: 1.6rem;
+    }
+
+    ul {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    li {
+      font-size: 1.2rem;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .hero {
+    min-height: 50vh;
+    background-position: center 0;
+  }
+
+  .map {
+    max-width: 75%;
+    height: 400px;
+    iframe {
+
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .hero, .carousel, .carousel__slide {
+    min-height: 150px;
+    height: 50vh;
+  }
+
+  .wrapper h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 50%;
+    top: 1.5rem;
+  }
+
+  .slide__advisors h1 {
+    left: 40vw;
+    width: 60%;
+    top: 5px;
+  }
+
+  .slide__consultation h1 {
+    width: 70%;
+    font-size: 2rem;
+    left: 33vw;
+    top: 5px;
+  }
+
+  .carousel-controls {
+    padding: 0;
+    transform: translateY(-50%);
+  }
+
+  .carousel__button {
+    width: 100px;
+    height: 100px;
+
+    &::before {
+      width: 20px;
+      height: 20px;
+      border-radius: 2px;
+      border-width: 1rem 1rem 0 0;
+    }
+  }
+
+  .button__left::before {
+    left: 0;
+    top: 0;
+    transform: rotate(-135deg);
+  }
+  
+  .button__right::before {
+    left: -0.5rem;
+    top: 0;
+    transform: rotate(45deg);
+  }
+
+  .links {
+    flex-direction: column;
+
+    li {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+}

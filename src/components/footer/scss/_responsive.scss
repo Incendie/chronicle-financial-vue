@@ -1,0 +1,25 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  section {
+
+    ul {
+      width: 100%;
+
+      li p {
+        font-size: 1.8rem;
+      }
+    }
+
+    .contact__address {
+      width: 100%;
+
+      p {
+        font-size: 1.5rem;
+        text-align: left;
+      }
+    }
+  }
+
+  footer p {
+    font-size: 1.2rem;
+  }
+}

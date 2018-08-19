@@ -5,6 +5,13 @@
 					<a href="./"><img src="../../assets/chronicle-financial-300dpi.png" alt=""></a>
 			</div>
 			<nav>
+				<input id="hamburger" type="checkbox">
+				<label for="hamburger" class="hamburger">
+						<span class="hamburger__label">Menu</span>
+						<span class="hamburger__top"></span>
+						<span class="hamburger__middle"></span>
+						<span class="hamburger__bottom"></span>
+				</label>
 				<ul>
 						<li v-for="routes in links" v-bind:key="routes.id" class="inactive">
 							<router-link

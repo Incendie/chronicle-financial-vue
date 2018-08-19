@@ -1,0 +1,41 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .hero {
+    min-height: 50vh;
+    background-position: 0 0;
+  }
+
+  .advisor .wrapper {
+    flex-direction: column;
+  }
+
+  .advisor__photo {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .advisor__info {
+    width: 100%;
+    padding: 0;
+  }
+
+  .advisors .advisor {
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+  .foci {
+    p {
+      font-size: 1.6rem;
+
+    }
+    ul {
+      flex-direction: column;
+
+      li {
+        width: 100%;
+        font-size: 1.25rem;
+      }
+    }
+  }
+}

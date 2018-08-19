@@ -69,6 +69,7 @@ export default {
 <style lang="scss" scoped>
   @import '../../scss/styles.scss';
   @import './scss/_carousel.scss';
+  @import './scss/_responsive.scss';
 
   .didYouKnow {
     background-color: $bgColour2;
