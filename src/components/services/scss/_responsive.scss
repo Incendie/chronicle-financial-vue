@@ -1,8 +1,14 @@
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (max-device-width : 1024px) {
+  .hero {
+    background-position: center;
+  }
+}
+
+@media only screen and (max-device-width : 768px) {
 
   .hero {
     min-height: 50vh;
-    background-position: 0 0;
+    background-position: center;
   }
 
   .services {
@@ -29,4 +35,8 @@
       width: 100%;
     }
   }
+}
+
+@media only screen and (max-device-width : 480px) {
+
 }

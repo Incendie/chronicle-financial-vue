@@ -21,7 +21,6 @@ export default {
 
 .hero {
     background-image: url("../../assets/team-meeting.jpg");
-    background-position-y: -600px;
   }
 
   .consultation {

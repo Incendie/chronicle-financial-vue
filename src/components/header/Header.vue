@@ -46,7 +46,7 @@ export default {
 				},
 				{
           id: 3,
-					text: 'Our Services',
+					text: 'Services',
 					name: 'services',
           page:'/services'
         },

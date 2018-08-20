@@ -25,12 +25,17 @@ export default {
 
   .hero {
     background-image: url("../../assets/wedding-1770860.jpg");
-    background-position-y: -600px;
   }
 
   main {
     padding-bottom: 80px;
   }
 
-  @import './scss/_responsive.scss'
+  @import './scss/_responsive.scss';
+
+  @media only screen and (max-device-width : 1024px) {
+    .hero {
+      background-position: 0 80px;
+    }
+  }
 </style>

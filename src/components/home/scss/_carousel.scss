@@ -41,7 +41,7 @@
   h1 {
     color: white;
     text-align: center;
-    left: 18vw;    
+    left: 18vw;
     font-size: 6rem;
   }
 }
@@ -79,9 +79,9 @@ h1 {
 
 .carousel-controls {
   position: absolute;
-  z-index: 10;
+  z-index: 8;
   top: 50%;
-  width: 100vw;
+  width: 90vw;
   display: flex;
   justify-content: space-between;
   padding: 0 140px;

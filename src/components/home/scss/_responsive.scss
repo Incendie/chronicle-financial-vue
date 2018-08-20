@@ -1,4 +1,56 @@
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (max-device-width : 1024px) {
+  
+  .slide__advisors h1 {
+    font-size: 5rem;
+    left: 70%;
+    width: 40%;
+  }
+
+  .slide__life h1 {
+    font-size: 6rem;
+    width: 50%;
+  }
+
+  .slide__know h1 {
+    width: 40%;
+    font-size: 5rem;
+    left: 50px;
+  }
+
+  .slide__consultation {
+    background-position: 0 50px;
+
+    h1 {
+      width: 50%;
+      font-size: 5rem;
+      left: 60%;
+      top: 25vh;
+    }
+  }
+
+  .slide__services h1{
+    left: 2%;
+    font-size: 6rem;
+  }
+
+  .links {
+    li {
+      width: 30%;
+    }
+
+    h3 {
+      min-height: 53px;
+      padding: 50%;
+    }
+  }
+
+  .carousel-controls {
+    width: 100vw;
+    padding: 0 60px;
+  }
+}
+
+@media only screen and (max-device-width : 768px) {
   .hero, .carousel, .carousel__slide {
     min-height: 150px;
     height: 50vh;
@@ -13,15 +65,26 @@
 
   .slide__advisors h1 {
     left: 40vw;
-    width: 60%;
-    top: 5px;
+    width: 40%;
+    top: 20px;
+  }
+
+  .slide__know h1 {
+    width: 40%;
+    left: 50px;
+    top: 20px;
   }
 
   .slide__consultation h1 {
-    width: 70%;
-    font-size: 2rem;
-    left: 33vw;
-    top: 5px;
+    width: 50%;
+    font-size: 2.5rem;
+    left: 40vw;
+    top: 20px;
+  }
+
+  .slide__services h1 {
+    font-size: 3rem;
+    left: 25%;
   }
 
   .carousel-controls {
@@ -46,7 +109,7 @@
     top: 0;
     transform: rotate(-135deg);
   }
-  
+
   .button__right::before {
     left: -0.5rem;
     top: 0;
@@ -60,5 +123,45 @@
       width: 100%;
       margin: 10px 0;
     }
+
+    p {
+      font-size: 2rem;
+    }
   }
+
+  .links__img {
+    background-position: center 25%;
+  }
+}
+
+@media only screen and (max-device-width : 480px) {
+
+  .slide__advisors h1 {
+    left: 10vw;
+    width: 100%;
+    top: 20px;
+  }
+
+  .slide__consultation h1 {
+    width: 100%;
+    font-size: 1.65rem;
+    left: 0;
+    top: 15px;
+  }
+
+  .slide__know {
+    background-position: center;
+
+    h1 {
+      left: 0;
+      width: 30%;
+    }
+  }
+
+  .links {
+    p {
+      font-size: 1.6rem;
+    }
+  }
+
 }
