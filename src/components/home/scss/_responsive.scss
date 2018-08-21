@@ -1,9 +1,12 @@
 @media only screen and (max-device-width : 1024px) {
   
-  .slide__advisors h1 {
-    font-size: 5rem;
-    left: 70%;
-    width: 40%;
+  .slide__advisors {
+    background-position: top;
+    h1 {
+      font-size: 5rem;
+      left: 70%;
+      width: 40%;
+    }
   }
 
   .slide__life h1 {
@@ -18,18 +21,19 @@
   }
 
   .slide__consultation {
-    background-position: 0 50px;
+    background-position: 0 100px;
 
     h1 {
       width: 50%;
-      font-size: 5rem;
+      font-size: 4.5rem;
       left: 60%;
-      top: 25vh;
+      top: 30vh;
     }
   }
 
   .slide__services h1{
-    left: 2%;
+    margin-top: 10px;
+    max-width: 50vh;
     font-size: 6rem;
   }
 
@@ -56,35 +60,41 @@
     height: 50vh;
   }
 
-  .wrapper h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
+  .slide__life h1 {
+    font-size: 4rem;
     width: 50%;
     top: 1.5rem;
   }
 
   .slide__advisors h1 {
-    left: 40vw;
+    left: 45vw;
     width: 40%;
-    top: 20px;
+    top: 30px;
+    font-size: 3rem;
   }
 
   .slide__know h1 {
     width: 40%;
-    left: 50px;
+    left: 40px;
     top: 20px;
+    font-size: 4rem;
   }
 
-  .slide__consultation h1 {
-    width: 50%;
-    font-size: 2.5rem;
-    left: 40vw;
-    top: 20px;
+  .slide__consultation {
+    background-position: center;
+
+    h1 {
+      width: 50%;
+      font-size: 2.5rem;
+      left: 45vw;
+      top: 20px;
+    }
   }
 
   .slide__services h1 {
+    margin-top: 30px;
+    top: 0;
     font-size: 3rem;
-    left: 25%;
   }
 
   .carousel-controls {
@@ -149,12 +159,17 @@
     top: 15px;
   }
 
+  .slide__life h1 {
+    font-size: 3rem;
+  }
+
   .slide__know {
     background-position: center;
 
     h1 {
       left: 0;
       width: 30%;
+      font-size: 3rem;
     }
   }
 

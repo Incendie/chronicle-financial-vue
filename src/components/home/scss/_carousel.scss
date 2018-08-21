@@ -9,10 +9,19 @@
 
 .slide__life {
   background-image: url('../../assets/hero.jpg');
+
+  h1 {
+    max-width: 500px;
+  }
 }
 
 .slide__know {
   background-image: url('../../assets/wedding-1770860.jpg');
+
+  h1 {
+    font-size: 6rem;
+    width: 400px;
+  }
 }
 
 .slide__advisors {
@@ -27,6 +36,7 @@
 
 .slide__consultation {
   background-image: url('../../assets/team-meeting.jpg');
+  background-position: 0 100px;
 
   h1 {
     left: 40vw;
@@ -41,7 +51,9 @@
   h1 {
     color: white;
     text-align: center;
-    left: 18vw;
+    margin: 30px auto;
+    left: 0;
+    top: 140px;
     font-size: 6rem;
   }
 }
@@ -81,10 +93,10 @@ h1 {
   position: absolute;
   z-index: 8;
   top: 50%;
-  width: 90vw;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
-  padding: 0 140px;
+  padding: 0 5%;
 }
 
 $buttonSize: 8rem;
