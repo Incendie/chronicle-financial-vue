@@ -4,7 +4,7 @@
   min-height: 800px;
   width: 100vw;
   flex: 1 0 auto;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .slide__life {
@@ -17,6 +17,7 @@
 
 .slide__know {
   background-image: url('../../assets/wedding-1770860.jpg');
+  background-position: 0 100px;
 
   h1 {
     font-size: 6rem;

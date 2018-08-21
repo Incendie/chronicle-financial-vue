@@ -21,6 +21,11 @@
 <script>
 export default {
   name: 'Carousel',
+  mounted() {
+    setInterval(function() {
+      this.next();
+    }.bind(this), 4000)
+  },
   data() {
     return {
        slides: [
