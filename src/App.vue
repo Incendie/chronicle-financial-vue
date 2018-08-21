@@ -25,6 +25,7 @@ export default {
 					{name: 'Contact Us', href: 'contact'},
 				]
   },
+  title: 'Chronicle Financial',
 }
 </script>
 
