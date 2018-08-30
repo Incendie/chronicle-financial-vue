@@ -13,9 +13,9 @@
 						<span class="hamburger__bottom"></span>
 				</label>
 				<ul>
-						<li v-for="routes in links" v-bind:key="routes.id" class="inactive">
+						<li v-for="routes in links" v-bind:key="routes.id" class="inactive" @click="navigate">
 							<router-link
-								class="navLink ${routes.name}"
+								:class="`navLink ${routes.name}`"
 								:to="`${routes.page}`"
 							>{{ routes.text }}
 							</router-link>
@@ -28,7 +28,12 @@
 
 <script>
 export default {
-  name: 'Header',
+	name: 'Header',
+	methods: {
+		navigate() {
+			document.getElementById("hamburger").checked = false;
+		}
+	},
   data() {
 		return {
 			links: [

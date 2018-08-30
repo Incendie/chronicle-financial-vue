@@ -57,15 +57,15 @@
 import Carousel from "./Carousel.vue"
 
 export default {
-  name: 'Home',
-	created: function() {
-		var activeLink = document.getElementsByClassName("navLink")[0];
+	name: 'Home',
+	mounted: function() {
+		let activeLink = document.getElementsByClassName("router-link-active")[0];
 
 		activeLink.parentElement.classList.add("active");
 		activeLink.parentElement.classList.remove("inactive");
 	},
 	destroyed: function() {
-		var activeLink = document.getElementsByClassName("navLink")[0];
+		let activeLink = document.getElementsByClassName("router-link-active")[0];
 
 		activeLink.parentElement.classList.remove("active");
 		activeLink.parentElement.classList.add("inactive");

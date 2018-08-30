@@ -1,5 +1,26 @@
+@media only screen and (max-device-width : 1200px) {
+
+  .slide__life h1 {
+    font-size: 7rem;
+    width: 40%;
+    left: 5vw;
+  }
+
+  .slide__consultation h1 {
+    font-size: 5rem;
+  }
+
+  .slide__advisors {
+
+    h1 {
+      font-size: 5rem;
+      width: 50%;
+    }
+  }
+}
+
 @media only screen and (max-device-width : 1024px) {
-  
+
   .slide__advisors {
     background-position: top;
     h1 {
@@ -14,20 +35,22 @@
     width: 50%;
   }
 
-  .slide__know h1 {
-    width: 40%;
-    font-size: 5rem;
-    left: 50px;
-  }
-
-  .slide__consultation {
-    background-position: 0 100px;
-
+  .slide__know {
+    background-position: -50px 80px;
     h1 {
       width: 50%;
-      font-size: 4.5rem;
+      font-size: 5rem;
+      left: 0px;
+    }
+  }
+  .slide__consultation {
+    background-position: -100px 100px;
+
+    h1 {
+      max-width: 60%;
+      font-size: 4rem;
       left: 60%;
-      top: 30vh;
+      top: 25vh;
     }
   }
 
@@ -46,6 +69,10 @@
       min-height: 53px;
       padding: 50%;
     }
+  }
+
+  .links__img {
+    background-position: -40px 0;
   }
 
   .carousel-controls {
@@ -67,26 +94,29 @@
   }
 
   .slide__advisors h1 {
-    left: 45vw;
+    left: 42vw;
     width: 40%;
     top: 30px;
-    font-size: 3rem;
+    font-size: 3.75rem;
   }
 
-  .slide__know h1 {
-    width: 40%;
-    left: 40px;
-    top: 20px;
-    font-size: 4rem;
-  }
-
-  .slide__consultation {
-    background-position: center;
+  .slide__know {
+    background-position: top;
 
     h1 {
-      width: 50%;
-      font-size: 2.5rem;
-      left: 45vw;
+      width: 40%;
+      left: 0px;
+      top: 20px;
+      font-size: 4rem;
+    }
+}
+  .slide__consultation {
+    background-position: top;
+
+    h1 {
+      width: 80%;
+      font-size: 3.5rem;
+      left: 40%;
       top: 20px;
     }
   }
@@ -131,7 +161,7 @@
 
     li {
       width: 100%;
-      margin: 10px 0;
+      margin: 20px 0;
     }
 
     p {
@@ -142,25 +172,37 @@
   .links__img {
     background-position: center 25%;
   }
+
+  section ul .links__container h3 {
+    padding: 12px 10%;
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (max-device-width : 480px) {
 
   .slide__advisors h1 {
-    left: 10vw;
+    left: 45vw;
+    top: 40px;
+    font-size: 2.5rem;
+  }
+
+  .slide__services h1 {
     width: 100%;
-    top: 20px;
   }
 
   .slide__consultation h1 {
     width: 100%;
-    font-size: 1.65rem;
-    left: 0;
+    font-size: 2.2rem;
+    left: 40%;
     top: 15px;
   }
 
-  .slide__life h1 {
-    font-size: 3rem;
+  .slide__life {
+    background-position: top;
+    h1 {
+      font-size: 3rem;
+    }
   }
 
   .slide__know {

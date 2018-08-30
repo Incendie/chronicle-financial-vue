@@ -22,13 +22,25 @@
 export default {
   name: 'Carousel',
   mounted() {
-    setInterval(function() {
+    this.carouselInterval = setInterval(function() {
       this.next();
-    }.bind(this), 4000)
+    }.bind(this), this.carouselTiming)
   },
   data() {
     return {
-       slides: [
+      carouselInterval: "",
+      carouselTiming: 5000,
+      slides: [
+        {
+          title: 'Free 30min Consultation',
+          id: 4,
+          name: "slide__consultation"
+        },
+        {
+          title: 'Plan for the Future',
+          id: 5,
+          name: "slide__services"
+        },
         {
           title: 'Live Life to the Fullest',
           id: 1,
@@ -44,27 +56,25 @@ export default {
           id: 3,
           name: "slide__advisors",
         },
-        {
-          title: 'Free 30min Consultation',
-          id: 4,
-          name: "slide__consultation"
-        },
-        {
-          title: 'Plan for the Future',
-          id: 5,
-          name: "slide__services"
-        },
       ]
     }
   },
    methods: {
     next() {
-      const first = this.slides.shift()
-      this.slides = this.slides.concat(first)
+      const first = this.slides.shift();
+      this.slides = this.slides.concat(first);
+      clearInterval(this.carouselInterval);
+      this.carouselInterval = setInterval(function() {
+        this.next();
+      }.bind(this), this.carouselTiming)
     },
     previous() {
-      const last = this.slides.pop()
-      this.slides = [last].concat(this.slides)
+      const last = this.slides.pop();
+      this.slides = [last].concat(this.slides);
+      clearInterval(this.carouselInterval);
+      this.carouselInterval = setInterval(function() {
+        this.next();
+      }.bind(this), this.carouselTiming)
     }
   }
 }

@@ -76,7 +76,7 @@
     box-shadow: 2px 2px 5px black;
 
     li {
-      padding: 10px 0;
+      vertical-align: middle;
       width: 100%;
       margin: 0;
 
@@ -95,8 +95,5 @@
 
   .active {
     background-color: $secondaryColour;
-    a {
-      line-height: normal;
-    }
   }
 }

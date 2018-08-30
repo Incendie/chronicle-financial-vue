@@ -26,6 +26,18 @@ export default {
 				]
   },
   title: 'Chronicle Financial',
+  mounted: function() {
+		let activeLink = document.getElementsByClassName("router-link-exact-active")[0];
+
+		activeLink.parentElement.classList.add("active");
+		activeLink.parentElement.classList.remove("inactive");
+	},
+	destroyed: function() {
+		let activeLink = document.getElementsByClassName("router-link-exact-active")[0];
+
+		activeLink.parentElement.classList.remove("active");
+		activeLink.parentElement.classList.add("inactive");
+	},
 }
 </script>
 
