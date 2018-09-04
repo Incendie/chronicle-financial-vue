@@ -87,10 +87,14 @@
     height: 50vh;
   }
 
-  .slide__life h1 {
-    font-size: 4rem;
-    width: 50%;
-    top: 1.5rem;
+  .slide__life {
+    background-position: 0 -50px;
+    h1 {
+      font-size: 4rem;
+      width: 50%;
+      top: 1.5rem;
+      left: 20px;
+    }
   }
 
   .slide__advisors h1 {
@@ -135,6 +139,7 @@
   .carousel__button {
     width: 100px;
     height: 100px;
+    top: 30%;
 
     &::before {
       width: 20px;

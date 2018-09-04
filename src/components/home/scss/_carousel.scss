@@ -5,6 +5,7 @@
   width: 100vw;
   flex: 1 0 auto;
   transition: transform 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .slide__life {
@@ -108,6 +109,9 @@ $buttonSize: 8rem;
   width: 200px;
   height: 200px;
   background: none;
+  position: absolute;
+  top: 40%;
+  z-index: 8;
 
   &:hover {
     background: rgba(255, 255, 255, 0.3);
@@ -130,18 +134,26 @@ $buttonSize: 8rem;
     height: $buttonSize;
     width: $buttonSize;
   }
-
 }
 
-.button__left::before {
-  left: 1.5rem;
-  top: 0;
-  transform: rotate(-135deg);
+
+
+.button__left {
+  left: 3vw;
+
+  &::before {
+    left: 1.5rem;
+    top: 0;
+    transform: rotate(-135deg);
+  }
 }
 
-.button__right::before {
-  left: -1.5rem;
-  top: 0;
-  transform: rotate(45deg);
-}
+.button__right {
+  right: 3vw;
 
+  &::before {
+    left: -1.5rem;
+    top: 0;
+    transform: rotate(45deg);
+  }
+}

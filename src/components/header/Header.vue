@@ -34,34 +34,9 @@ export default {
 			document.getElementById("hamburger").checked = false;
 		}
 	},
-  data() {
-		return {
-			links: [
-        {
-          id: 0,
-					text: 'Home',
-					name: 'home',
-          page:'/'
-				},
-        {
-          id: 1,
-					text: 'Advisors',
-					name: 'advisors',
-          page:'/advisors'
-				},
-				{
-          id: 3,
-					text: 'Services',
-					name: 'services',
-          page:'/services'
-        },
-        {
-          id: 4,
-					text: 'Contact',
-					name: 'contact',
-          page:'/contact'
-        }
-			]
+	props: {
+		links: {
+			required: true,
 		}
 	},
 }

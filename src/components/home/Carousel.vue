@@ -1,20 +1,22 @@
 <template>
   <div class="carousel-view">
     <transition-group class="carousel" tag="div">
-      <div
+      <router-link
         v-for="slide in slides"
         :class="[slide.name, 'carousel__slide']"
         :key="slide.id"
+        :to="`${slide.page}`"
+        tag="div"
       >
-      <div class="wrapper">
-        <h1>{{ slide.title }}</h1>
-      </div>
-      </div>
+        <div class="wrapper">
+          <h1>{{ slide.title }}</h1>
+        </div>
+      </router-link>
     </transition-group>
-    <div class='carousel-controls'>
+    <!-- <div class='carousel-controls'> -->
       <button class='carousel__button button__left' @click="previous"></button>
       <button class='carousel__button button__right' @click="next"></button>
-    </div>
+    <!-- </div> -->
   </div>
 </template>
 
@@ -34,27 +36,32 @@ export default {
         {
           title: 'Free 30min Consultation',
           id: 4,
-          name: "slide__consultation"
+          name: "slide__consultation",
+          page: "/consultation",
         },
         {
           title: 'Plan for the Future',
           id: 5,
-          name: "slide__services"
+          name: "slide__services",
+          page: '/services',
         },
         {
           title: 'Live Life to the Fullest',
           id: 1,
           name: "slide__life",
+          page: '/',
         },
         {
           title: 'Did You Know?',
           id: 2,
           name: "slide__know",
+          page: "/didyouknow",
         },
         {
           title: 'Meet Our Advisors',
           id: 3,
           name: "slide__advisors",
+          page: '/advisors',
         },
       ]
     }

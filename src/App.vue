@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <Header />
-    <router-view />
+    <Header :links="links"/>
+    <router-view :links="links"/>
     <Footer />
   </div>
 </template>
@@ -16,14 +16,35 @@ export default {
     Header,
     Footer,
   },
-  props: {
-    tabs:
-				[
-					{name: 'About Us', href: 'about'},
-					{name: 'Advisors', href: 'advisors'},
-					{name: 'Services', href: 'services'},
-					{name: 'Contact Us', href: 'contact'},
-				]
+  data() {
+    return {
+      links: [
+        {
+          id: 0,
+          text: 'Home',
+          name: 'home',
+          page: '/'
+        },
+        {
+          id: 1,
+          text: 'Advisors',
+          name: 'advisors',
+          page: '/advisors'
+        },
+        {
+          id: 3,
+          text: 'Services',
+          name: 'services',
+          page: '/services'
+        },
+        {
+          id: 4,
+          text: 'Contact',
+          name: 'contact',
+          page: '/contact'
+        }
+      ]
+    }
   },
   title: 'Chronicle Financial',
   mounted: function() {
