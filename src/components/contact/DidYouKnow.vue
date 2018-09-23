@@ -24,7 +24,7 @@ export default {
   }
 
   .hero {
-    background-image: url("../../assets/wedding-1770860.jpg");
+    background-image: url("../../assets/1920x650_know.jpg");
   }
 
   main {

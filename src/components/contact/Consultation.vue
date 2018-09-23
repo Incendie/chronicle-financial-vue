@@ -20,7 +20,7 @@ export default {
   @import './scss/styles.scss';
 
 .hero {
-    background-image: url("../../assets/team-meeting.jpg");
+    background-image: url("../../assets/1920x650_consult.jpg");
   }
 
   .consultation {

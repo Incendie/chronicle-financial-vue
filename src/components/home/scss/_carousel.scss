@@ -1,23 +1,25 @@
 .carousel__slide {
 	background-size: cover;
-	background-repeat: no-repeat;
-  min-height: 800px;
+  background-repeat: no-repeat;
+  background-position: center 140px;
+  min-height: 650px;
   width: 100vw;
   flex: 1 0 auto;
   transition: transform 0.5s ease-in-out;
 }
 
 .slide__life {
-  background-image: url('../../assets/hero.jpg');
+  background-image: url('../../assets/Carousel_life.jpg');
 
   h1 {
-    max-width: 500px;
+    max-width: 400px;
+    font-size: 7rem;
+    left: 50px;
   }
 }
 
 .slide__know {
-  background-image: url('../../assets/wedding-1770860.jpg');
-  background-position: 0 100px;
+  background-image: url('../../assets/Carousel_know.jpg');
 
   h1 {
     font-size: 7rem;
@@ -26,28 +28,29 @@
 }
 
 .slide__advisors {
-  background-image: url('../../assets/D88_8728.jpg');
+  background-image: url('../../assets/Carousel_advisors.jpg');
+  background-position: 30% 140px;
 
   h1 {
-    left: 45vw;
+    left: 75%;
     color: white;
-    font-size: 7rem;
+    font-size: 6rem;
+    width: 50%;
   }
 }
 
 .slide__consultation {
-  background-image: url('../../assets/team-meeting.jpg');
-  background-position: 0 100px;
+  background-image: url('../../assets/Carousel_consult.jpg');
 
   h1 {
-    left: 40vw;
-    font-size: 7rem;
+    left: 43vw;
+    font-size: 6rem;
+    top: 22vh;
   }
 }
 
 .slide__services {
-  background-image: url('../../assets/vacation.jpg');
-  background-position: center;
+  background-image: url('../../assets/Carousel_services.jpg');
 
   h1 {
     color: white;
@@ -55,7 +58,7 @@
     margin: 30px auto;
     left: 0;
     top: 140px;
-    font-size: 6rem;
+    font-size: 7rem;
   }
 }
 
@@ -87,7 +90,7 @@ h1 {
   align-items: center;
   overflow: hidden;
   width: 100vw;
-  min-height: 800px;
+  min-height: 650px;
 }
 
 .carousel-controls {

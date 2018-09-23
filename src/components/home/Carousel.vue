@@ -29,7 +29,7 @@ export default {
   data() {
     return {
       carouselInterval: "",
-      carouselTiming: 5000,
+      carouselTiming: 5000000,
       slides: [
         {
           title: 'Free 30min Consultation',
@@ -91,7 +91,7 @@ export default {
   }
 
   .hero {
-    background-image: url("../../assets/wedding-1770860.jpg");
+    background-image: url("../../assets/1920x650_know.jpg");
     background-position-y: -600px;
   }
 
