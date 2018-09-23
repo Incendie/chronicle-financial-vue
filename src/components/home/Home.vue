@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="hero">
-			<Carousel />
+			<Carousel :links="links"/>
 			<div class="wrapper">
 		<!-- <h1>Live Life to the Fullest</h1> -->
 			</div>
@@ -58,6 +58,11 @@ import Carousel from "./Carousel.vue"
 
 export default {
 	name: 'Home',
+	props: {
+		links: {
+			required: true,
+		}
+	},
 	mounted: function() {
 		let activeLink = document.getElementsByClassName("router-link-active")[0];
 
