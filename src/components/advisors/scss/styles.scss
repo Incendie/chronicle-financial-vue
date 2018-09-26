@@ -3,7 +3,7 @@
 	background-size: cover;
 	background-position: center 140px;
 	background-repeat: no-repeat;
-	min-height: 600px;
+	min-height: 650px;
 	margin: 0;
 	padding: 0;
 }
@@ -75,13 +75,18 @@ ul {
 	flex-direction: row;
 	flex-wrap: wrap;
 	list-style-type: disc;
-	list-style-position: inside;
+	padding: 0 15px;
 
 	li {
-		width: 50%;
+		width: 40%;
 		font-size: 1.6rem;
 		color: white;
 		margin-bottom: 10px;
+		list-style-position: outside;
+
+		&:nth-child(odd) {
+      margin-right: 100px;
+    }
 	}
 }
 

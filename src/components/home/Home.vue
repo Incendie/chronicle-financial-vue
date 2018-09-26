@@ -26,7 +26,7 @@
 					<li>
 						<div class="links__container">
 							<router-link to="/advisors" tag="div" class="links__img advisors"></router-link>
-							<h3>Meet Our Advisors</h3>
+							<div class="headerWrapper"><h3>Meet Our Advisors</h3></div>
 							<p>Meet our team of qualified, passionate advisors!</p>
 							<router-link to="/advisors" tag="button">Read More</router-link>
 						</div>
@@ -34,7 +34,7 @@
 					<li>
 						<div class="links__container">
 							<router-link to="/didyouknow" tag="div" class="links__img know"></router-link>
-							<h3>Did You Know?</h3>
+							<div class="headerWrapper"><h3>Did You Know?</h3></div>
 							<p>In order to retire comfortably, you need 70% of your working income! Are you prepared?</p>
 							<router-link to="/didyouknow" tag="button">Read More</router-link>
 						</div>
@@ -42,7 +42,7 @@
 					<li>
 						<div class="links__container">
 							<router-link to="/consultation" tag="div" class="links__img consult"></router-link>
-							<h3>Free 30Min Consultation</h3>
+							<div class="headerWrapper"><h3>Free 30Min Consultation</h3></div>
 							<p>We'd like to provide you with a second opinion. Come and speak to us!</p>
 							<router-link to="/consultation" tag="button">Read More</router-link>
 						</div>

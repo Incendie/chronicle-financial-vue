@@ -10,7 +10,7 @@
           </li>
           <li>
             <font-awesome-icon icon="envelope" size="2x"/>
-            <p>E-Mail</p>
+            <p><a href="mailto:info@chronicle-financial.com">info@chronicle-financial.com</a></p>
           </li>
         </ul>
         <div class="contact__address">

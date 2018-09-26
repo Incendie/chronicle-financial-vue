@@ -26,9 +26,9 @@
 								<li>Estate Planning & Legal Aspects</li>
 							</ul>
 						</div>
-						<p>With a passion for serving people, she truly understands and treats each client like one of her family, demonstrating professional knowledge, strict ethical conduct, and exceptional service. She will certainly help you reach a brighter financial future. Cherry can be contacted at 905-597-7780 or at Cherry.Cheung@Chronicle-Financial.com</p>
+						<p>With a passion for serving people, she truly understands and treats each client like one of her family, demonstrating professional knowledge, strict ethical conduct, and exceptional service. She will certainly help you reach a brighter financial future.</p>
 
-						<p>Cherry can be contacted at 905-597-7780 or at Cherry.Cheung@Chronicle-Financial.com</p>
+						<p>Cherry can be contacted at 905-597-7780 or at <a href="mailto:Cherry.Cheung@Chronicle-Financial.com">Cherry.Cheung@Chronicle-Financial.com</a></p>
 					</div>
 				</div>
 			</div>
@@ -55,7 +55,7 @@
 							</ul>
 						</div>
 
-						<p>Apple can be contacted at 905-597-7780 or at Apple.Ho@ActsFinancial.com</p>
+						<p>Apple can be contacted at 905-597-7780 or at <a href="Apple.Ho@ActsFinancial.com">Apple.Ho@ActsFinancial.com</a></p>
 					</div>
 				</div>
 			</div>

@@ -8,7 +8,7 @@ section	{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding: 20px 0;
+	padding: 40px 0;
 
 	h2 {
 		color: white;
@@ -22,8 +22,15 @@ section	{
 		font-weight: normal;
 	}
 
+	a {
+		color: $bgColour2;
+
+		&:hover {
+			color: $bgColour;
+		}
+	}
+
 	ul, .contact__address {
-		flex: 1;
 		display: inline-block;
 		width: 50%;
 	}
@@ -34,6 +41,7 @@ section	{
 			margin: 0;
 			margin-right: 10px;
 			margin-top: 8px;
+			line-height: 2rem;
 		}
 	}
 
@@ -46,6 +54,7 @@ section	{
 
 		p {
 			margin-left: 10px;
+			line-height: 1rem;
 		}
 	}
 }
