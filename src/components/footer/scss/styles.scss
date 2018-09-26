@@ -32,7 +32,8 @@ section	{
 
 	ul, .contact__address {
 		display: inline-block;
-		width: 50%;
+		width: 45%;
+		margin: 0 2.5%;
 	}
 
 	.contact__address {
@@ -54,7 +55,6 @@ section	{
 
 		p {
 			margin-left: 10px;
-			line-height: 1rem;
 		}
 	}
 }

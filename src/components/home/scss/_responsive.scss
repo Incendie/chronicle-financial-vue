@@ -1,4 +1,4 @@
-@media only screen and (max-device-width : 1200px) {
+@media only screen and (max-width : 1200px) {
 
   .slide__life h1 {
     font-size: 7rem;
@@ -28,7 +28,7 @@
   }
 }
 
-@media only screen and (max-device-width : 1024px) {
+@media only screen and (max-width : 1024px) {
 
   .slide__life {
     background-position: 55% 140px;
@@ -95,7 +95,7 @@
   }
 }
 
-@media only screen and (max-device-width : 768px) {
+@media only screen and (max-width : 768px) {
   .hero, .carousel, .carousel__slide {
     min-height: 150px;
     height: 50vh;
@@ -202,7 +202,7 @@
   }
 }
 
-@media only screen and (max-device-width : 480px) {
+@media only screen and (max-width : 480px) {
   
   .slide__life {
     background-position: top;

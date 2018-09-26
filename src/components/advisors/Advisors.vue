@@ -18,12 +18,12 @@
 							<p>As a Certified Financial Planning (CFP) Professional, Cherry focuses on several areas:</p>
 							<ul>
 								<li>Financial Management</li>
-								<li>Insurance and Risk Management</li>
 								<li>Management</li>
 								<li>Investment Planning</li>
 								<li>Retirement Planning</li>
 								<li>Tax Planning</li>
 								<li>Estate Planning & Legal Aspects</li>
+								<li>Insurance and Risk Management</li>
 							</ul>
 						</div>
 						<p>With a passion for serving people, she truly understands and treats each client like one of her family, demonstrating professional knowledge, strict ethical conduct, and exceptional service. She will certainly help you reach a brighter financial future.</p>
@@ -45,17 +45,17 @@
 						<div class="foci">
 							<p>In order to provide complete, well rounded service in financial planning, Apple works closely to a team of professionals, including lawyers, accountants, wealth consultants and tax specialists, in each of the following areas:</p>
 							<ul>
-								<li>Wealth Management – including RRSP’s, TFSA, RRIF, LIF, Non-registered accounts, etc. </li>
 								<li>Education Planning</li>
 								<li>Tax Planning</li>
 								<li>Retirement Planning</li>
 								<li>Insurance and Risk Management</li>
 								<li>Corporate Insured Retirement Plans</li>
 								<li>Estate and Legacy Planning</li>
+								<li>Wealth Management – including RRSP’s, TFSA, RRIF, LIF, Non-registered accounts, etc. </li>
 							</ul>
 						</div>
 
-						<p>Apple can be contacted at 905-597-7780 or at <a href="Apple.Ho@ActsFinancial.com">Apple.Ho@ActsFinancial.com</a></p>
+						<p>Apple can be contacted at 905-597-7780 or at <a href="mailto:Apple.Ho@ActsFinancial.com">Apple.Ho@ActsFinancial.com</a></p>
 					</div>
 				</div>
 			</div>

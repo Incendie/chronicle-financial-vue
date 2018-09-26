@@ -15,13 +15,13 @@
     <section class="details wrapper">
       <h3>At Chronicle Financial, we work closely to a team of professionals, including lawyers, accountants, wealth consultants and tax specialists, in each of the following areas:</h3>
       <ul>
-        <li>Wealth Management – including RRSP’s, TFSA, RRIF, LIF, Non-registered accounts, etc. </li>
         <li>Education Planning</li>
         <li>Tax Planning</li>
         <li>Retirement Planning</li>
         <li>Insurance and Risk Management</li>
         <li>Corporate Insured Retirement Plans</li>
         <li>Estate and Legacy Planning</li>
+        <li>Wealth Management – including RRSP’s, TFSA, RRIF, LIF, Non-registered accounts, etc.</li>
       </ul>
     </section>
   </div>
