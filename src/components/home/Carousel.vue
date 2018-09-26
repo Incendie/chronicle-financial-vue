@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       carouselInterval: "",
-      carouselTiming: 5000000,
+      carouselTiming: 5000,
       slides: [
         {
           title: 'Free 30min Consultation',
