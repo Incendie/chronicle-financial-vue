@@ -1,6 +1,6 @@
 module.exports = {
   // options...
-  baseUrl: process.env.NODE_ENV === 'production' ? '/chronicle-financial-vue/' : '/',
+  // baseUrl: process.env.NODE_ENV === 'production' ? '/chronicle-financial-vue/' : '/',
 
   // Other options include:
   // outputDir: undefined,
