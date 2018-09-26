@@ -33,7 +33,15 @@ section	{
 	ul, .contact__address {
 		display: inline-block;
 		width: 45%;
-		margin: 0 2.5%;
+	}
+
+	ul {
+		margin-right: 2.5%;
+		margin-left: 10px;
+	}
+
+	.contact__address {
+		margin-left: 5%;
 	}
 
 	.contact__address {
@@ -51,7 +59,6 @@ section	{
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		margin-left: 10px;
 
 		p {
 			margin-left: 10px;
