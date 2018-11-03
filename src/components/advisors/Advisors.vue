@@ -18,7 +18,7 @@
 							<p>As a Certified Financial Planning (CFP) Professional, Cherry focuses on several areas:</p>
 							<ul>
 								<li>Financial Management</li>
-								<li>Management</li>
+								<li>Insurance and Risk Management</li>
 								<li>Investment Planning</li>
 								<li>Retirement Planning</li>
 								<li>Tax Planning</li>
@@ -51,7 +51,7 @@
 								<li>Insurance and Risk Management</li>
 								<li>Corporate Insured Retirement Plans</li>
 								<li>Estate and Legacy Planning</li>
-								<li>Wealth Management – including RRSP’s, TFSA, RRIF, LIF, Non-registered accounts, etc. </li>
+								<li>Wealth Management</li>
 							</ul>
 						</div>
 
@@ -64,26 +64,25 @@
 </template>
 
 <script>
-
 export default {
-	name: 'Advisors',
-	created: function() {
-		var activeLink = document.getElementsByClassName("navLink")[1];
+  name: "Advisors",
+  created: function() {
+    var activeLink = document.getElementsByClassName("navLink")[1];
 
-		activeLink.parentElement.classList.add("active");
-		activeLink.parentElement.classList.remove("inactive");
-	},
-	destroyed: function() {
-		var activeLink = document.getElementsByClassName("navLink")[1];
+    activeLink.parentElement.classList.add("active");
+    activeLink.parentElement.classList.remove("inactive");
+  },
+  destroyed: function() {
+    var activeLink = document.getElementsByClassName("navLink")[1];
 
-		activeLink.parentElement.classList.remove("active");
-		activeLink.parentElement.classList.add("inactive");
-	},
-}
+    activeLink.parentElement.classList.remove("active");
+    activeLink.parentElement.classList.add("inactive");
+  }
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-	@import '../../scss/styles.scss';
-	@import './scss/styles.scss';
+@import "../../scss/styles.scss";
+@import "./scss/styles.scss";
 </style>

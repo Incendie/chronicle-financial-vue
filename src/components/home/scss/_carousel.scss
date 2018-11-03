@@ -1,5 +1,5 @@
 .carousel__slide {
-	background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center 140px;
   min-height: 720px;
@@ -44,7 +44,7 @@
   background-image: url('../../assets/Carousel_consult.jpg');
 
   h1 {
-    left: 43vw;
+    left: 45%;
     font-size: 6rem;
     top: 22vh;
   }
@@ -66,16 +66,17 @@
 .carousel__slide:first-of-type {
   opacity: 0;
 }
+
 .carousel__slide:last-of-type {
   opacity: 0;
 }
 
 h1 {
-	position: relative;
-	top: 20rem;
-	margin: 0;
-	width: 700px;
-	z-index: 1;
+  position: relative;
+  top: 20rem;
+  margin: 0;
+  width: 700px;
+  z-index: 1;
 }
 
 .carousel-view {

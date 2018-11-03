@@ -32,6 +32,7 @@
 
   .slide__life {
     background-position: 55% 140px;
+
     h1 {
       font-size: 5rem;
       width: 50%;
@@ -41,6 +42,7 @@
 
   .slide__advisors {
     background-position: 30% 140px;
+
     h1 {
       font-size: 4rem;
       left: 75%;
@@ -51,6 +53,7 @@
 
   .slide__know {
     background-position: 55% 140px;
+
     h1 {
       width: 50%;
       font-size: 5rem;
@@ -63,13 +66,13 @@
     h1 {
       max-width: 60%;
       font-size: 4rem;
-      left: 60%;
+      left: 50%;
       top: 25vh;
     }
   }
 
-  .slide__services h1{
-    margin-top: 10px;
+  .slide__services h1 {
+    margin-top: 30px;
     left: -40px;
     font-size: 6rem;
   }
@@ -96,7 +99,10 @@
 }
 
 @media only screen and (max-width : 768px) {
-  .hero, .carousel, .carousel__slide {
+
+  .hero,
+  .carousel,
+  .carousel__slide {
     min-height: 150px;
     height: 50vh;
   }
@@ -122,20 +128,21 @@
 
   .slide__advisors {
     background-position: center;
+
     h1 {
       left: 42vw;
       width: 40%;
       top: 30px;
       font-size: 3.75rem;
     }
-}
+  }
 
   .slide__consultation {
     background-position: top;
 
     h1 {
       width: 80%;
-      font-size: 3.25rem;
+      font-size: 3rem;
       left: 40%;
       top: 20px;
     }
@@ -146,7 +153,7 @@
     top: 0;
     left: 0;
     width: 70%;
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .carousel-controls {
@@ -203,11 +210,12 @@
 }
 
 @media only screen and (max-width : 480px) {
-  
+
   .slide__life {
     background-position: top;
+
     h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
   }
 
@@ -215,34 +223,40 @@
     background-position: center;
 
     h1 {
-      left: -10px;
+      left: -15px;
       width: 50%;
-      font-size: 2.5rem;
+      font-size: 2.25rem;
     }
   }
 
   .slide__advisors {
-    background-position: 30% 0;
+    background-position: 40% 0;
 
     h1 {
-      left: 17vw;
-      top: 10px;
+      right: 0;
+      top: 20px;
       font-size: 2.25rem;
-      width: 100%;
+      width: 50%;
       max-width: 60%;
+      text-align: center;
     }
   }
 
   .slide__services h1 {
     width: 100%;
+    font-size: 2.5rem;
   }
 
-  .slide__consultation h1 {
-    width: 60%;
-    max-width: 70%;
-    font-size: 2.25rem;
-    left: 40%;
-    top: 15px;
+  .slide__consultation {
+    background-position: 60% 0;
+
+    h1 {
+      width: 70%;
+      max-width: 70%;
+      font-size: 2.25rem;
+      left: 25%;
+      top: 15px;
+    }
   }
 
 

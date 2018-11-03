@@ -6,7 +6,9 @@ body {
   font-family: $contentFont;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: $headingFont;
   color: black;
   margin: 0;
@@ -16,7 +18,8 @@ h1 {
   text-transform: uppercase;
   color: $primaryColour;
   font-size: 8.8rem;
-  font-weight: normal;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 h2 {
@@ -58,7 +61,7 @@ a {
 }
 
 body {
-	background: none;
+  background: none;
 }
 
 .wrapper {

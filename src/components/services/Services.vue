@@ -21,7 +21,7 @@
         <li>Insurance and Risk Management</li>
         <li>Corporate Insured Retirement Plans</li>
         <li>Estate and Legacy Planning</li>
-        <li>Wealth Management – including RRSP’s, TFSA, RRIF, LIF, Non-registered accounts, etc.</li>
+        <li>Wealth Management</li>
       </ul>
     </section>
   </div>
@@ -29,24 +29,24 @@
 
 <script>
 export default {
-  name: 'Services',
+  name: "Services",
   created: function() {
-		var activeLink = document.getElementsByClassName("navLink")[2];
+    var activeLink = document.getElementsByClassName("navLink")[2];
 
     activeLink.parentElement.classList.add("active");
     activeLink.parentElement.classList.remove("inactive");
-	},
-	destroyed: function() {
-		var activeLink = document.getElementsByClassName("navLink")[2];
+  },
+  destroyed: function() {
+    var activeLink = document.getElementsByClassName("navLink")[2];
 
     activeLink.parentElement.classList.remove("active");
     activeLink.parentElement.classList.add("inactive");
-	},
-}
+  }
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-  @import '../../scss/styles.scss';
-  @import './scss/styles.scss';
+@import "../../scss/styles.scss";
+@import "./scss/styles.scss";
 </style>
