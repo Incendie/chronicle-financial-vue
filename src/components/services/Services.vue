@@ -7,7 +7,7 @@
 
       <p>Every customer is unique and important to us. At Chronicle Financial, we put principles such as integrity, love, service, and honesty into our everyday lives. We look forward to building a rewarding partnership with you.</p>
 
-      <p>As a brokerage, we are partnered with a multitude of insurance companies, investment companies*, banks and financial institutions.</p>
+      <p>As a brokerage, we are partnered with a multitude of insurance companies, investment companies, banks and financial institutions.</p>
 
       <p>Our investment professionals have the expertise, dedication and experience to make insightful investment decisions, while being committed to the principle that in every action we take, we will be guided by the long-term best interests of our clients.</p>
     </main>
